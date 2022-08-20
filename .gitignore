@@ -1,5 +1,5 @@
 log/
 node_modules/
-css/dist.css
-php/DbPass.php
+# css/dist.css
+# php/DbPass.php
 sql/resister_member.sql
