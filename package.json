@@ -1,0 +1,23 @@
+{
+  "name": "bonenkai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production postcss css/styles.css -o css/dist.css",
+    "dev": "cross-env postcss css/styles.css -o css/dist.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.12",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
